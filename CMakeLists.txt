@@ -1,6 +1,9 @@
-﻿cmake_minimum_required (VERSION 3.8)
+﻿cmake_minimum_required (VERSION 3.20)
 
 project ("Skippy")
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Include sub-projects.
 find_package(Vulkan REQUIRED)
