@@ -3,8 +3,6 @@
 #define GLM_ENABLE_EXPERIMENTAL
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
-#include <vector>
-#include <math.h>
 
 #define ENABLE_FULLSCREEN 0
 #define RESIZABLE 0
